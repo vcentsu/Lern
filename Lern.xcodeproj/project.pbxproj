@@ -14,6 +14,7 @@
 		D320302C288F080F00F44300 /* Lern.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D320302A288F080F00F44300 /* Lern.xcdatamodeld */; };
 		D320302E288F081300F44300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D320302D288F081300F44300 /* Assets.xcassets */; };
 		D3203031288F081300F44300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320302F288F081300F44300 /* LaunchScreen.storyboard */; };
+		D3203039288F1AFB00F44300 /* OnBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3203038288F1AFB00F44300 /* OnBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D320302D288F081300F44300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3203030288F081300F44300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3203032288F081300F44300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3203038288F1AFB00F44300 /* OnBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D3203023288F080F00F44300 /* SceneDelegate.swift */,
 				D3203025288F080F00F44300 /* ViewController.swift */,
 				D3203027288F080F00F44300 /* Main.storyboard */,
+				D3203038288F1AFB00F44300 /* OnBoard.storyboard */,
 				D320302D288F081300F44300 /* Assets.xcassets */,
 				D320302F288F081300F44300 /* LaunchScreen.storyboard */,
 				D3203032288F081300F44300 /* Info.plist */,
@@ -130,6 +133,7 @@
 			files = (
 				D3203031288F081300F44300 /* LaunchScreen.storyboard in Resources */,
 				D320302E288F081300F44300 /* Assets.xcassets in Resources */,
+				D3203039288F1AFB00F44300 /* OnBoard.storyboard in Resources */,
 				D3203029288F080F00F44300 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

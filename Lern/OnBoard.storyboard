@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,25 +8,93 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--On Board Controller-->
+        <!--View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="OnBoardController" customModule="Lern" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="ViewController" customModule="Lern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RZW-ou-UcO">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7a-k9-VVR">
+                                <rect key="frame" x="26" y="514" width="376" height="378"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn Code Review Easily and Fun!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIK-Cs-pZA">
+                                        <rect key="frame" x="39.666666666666686" y="70" width="297" height="91"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="91" id="9Zb-Og-Uvu"/>
+                                            <constraint firstAttribute="width" constant="297" id="zF5-gR-1l3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                        <color key="textColor" red="0.3294117647" green="0.29803921570000003" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4D-B4-OWb">
+                                        <rect key="frame" x="107" y="276" width="162" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="XhY-8w-OrN"/>
+                                            <constraint firstAttribute="width" constant="162" id="a7k-cn-le3"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Get Started">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.42352941176470588" green="0.37647058823529411" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get a deeper understanding of Code Review and try to implement it in a fun way!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itM-gc-bWw">
+                                        <rect key="frame" x="45.666666666666686" y="161" width="285" height="95"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="95" id="WlB-gH-QTn"/>
+                                            <constraint firstAttribute="width" constant="285" id="amm-zA-pjB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="0.48627450979999998" green="0.47450980390000003" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="376" id="5tI-bU-Cnd"/>
+                                    <constraint firstItem="aIK-Cs-pZA" firstAttribute="centerX" secondItem="M7a-k9-VVR" secondAttribute="centerX" id="AON-sm-syK"/>
+                                    <constraint firstItem="f4D-B4-OWb" firstAttribute="top" secondItem="itM-gc-bWw" secondAttribute="bottom" constant="20" id="MX7-po-RxR"/>
+                                    <constraint firstItem="f4D-B4-OWb" firstAttribute="centerX" secondItem="itM-gc-bWw" secondAttribute="centerX" id="N49-zC-hmS"/>
+                                    <constraint firstItem="aIK-Cs-pZA" firstAttribute="top" secondItem="M7a-k9-VVR" secondAttribute="top" constant="70" id="T9e-J9-shc"/>
+                                    <constraint firstItem="itM-gc-bWw" firstAttribute="centerX" secondItem="aIK-Cs-pZA" secondAttribute="centerX" id="eVz-c8-s2u"/>
+                                    <constraint firstAttribute="height" constant="378" id="f3C-J5-HAb"/>
+                                    <constraint firstItem="itM-gc-bWw" firstAttribute="top" secondItem="aIK-Cs-pZA" secondAttribute="bottom" id="fue-Jd-6NE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="M7a-k9-VVR" secondAttribute="bottom" id="Eij-2s-91o"/>
+                            <constraint firstItem="RZW-ou-UcO" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="S5Y-5f-O6N"/>
+                            <constraint firstItem="RZW-ou-UcO" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="SkA-L2-ehi"/>
+                            <constraint firstItem="RZW-ou-UcO" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="ecG-1b-xEI"/>
+                            <constraint firstAttribute="bottom" secondItem="RZW-ou-UcO" secondAttribute="bottom" id="sOi-14-Cvo"/>
+                            <constraint firstItem="M7a-k9-VVR" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="yjD-PM-GjN"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="onBoardView" destination="M7a-k9-VVR" id="4ag-en-g20"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="82"/>
+            <point key="canvasLocation" x="128.97196261682242" y="80.993520518358537"/>
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="428" height="926"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

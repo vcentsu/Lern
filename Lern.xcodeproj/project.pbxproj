@@ -15,6 +15,7 @@
 		D320302E288F081300F44300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D320302D288F081300F44300 /* Assets.xcassets */; };
 		D3203031288F081300F44300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320302F288F081300F44300 /* LaunchScreen.storyboard */; };
 		D3203039288F1AFB00F44300 /* OnBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3203038288F1AFB00F44300 /* OnBoard.storyboard */; };
+		D320303B288FB0DC00F44300 /* OnBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320303A288FB0DC00F44300 /* OnBoardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D3203030288F081300F44300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3203032288F081300F44300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3203038288F1AFB00F44300 /* OnBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoard.storyboard; sourceTree = "<group>"; };
+		D320303A288FB0DC00F44300 /* OnBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D320302F288F081300F44300 /* LaunchScreen.storyboard */,
 				D3203032288F081300F44300 /* Info.plist */,
 				D320302A288F080F00F44300 /* Lern.xcdatamodeld */,
+				D320303A288FB0DC00F44300 /* OnBoardController.swift */,
 			);
 			path = Lern;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				D3203022288F080F00F44300 /* AppDelegate.swift in Sources */,
 				D320302C288F080F00F44300 /* Lern.xcdatamodeld in Sources */,
 				D3203024288F080F00F44300 /* SceneDelegate.swift in Sources */,
+				D320303B288FB0DC00F44300 /* OnBoardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
